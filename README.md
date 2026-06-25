@@ -8,6 +8,7 @@ With these resources we want to help you to find the tools for your specific sys
 * [Software Suites](#software-suites)
 * [Tree Estimation](#tree-estimation)
 * [Network Estimation](#network-estimation)
+* [Integrated Pipelines](#integrated-pipelines)
 * [Community](#community)
   * [Talk](#talk)
 * [Contribution](#contribution)
@@ -22,8 +23,25 @@ Many Phylogenetic tools perform a multitude of functions, or contain many differ
 * [PhyloNet](https://phylogenomics.rice.edu/html/phylonet.html) - A powerful command-line software package for reconstructing and evaluating phylogenetic networks. Offers diverse inference methods (parsimony, likelihood, and MCMC) alongside tools for network comparison and data simulation.
 * [BEAST/BEASTX](https://beast.community/index.html) - A powerful Bayesian MCMC software package focused on molecular dating and evolutionary analysis of time-structured nucleotide and amino acid sequences. Highly optimized for phylodynamics, epidemic tracking, and ancestral state reconstruction.
 * [BEAST2](https://www.beast2.org/) - A modular, redesigned framework for Bayesian phylogenetic analysis that relies on a flexible XML structure. Designed for extensibility, it allows users to dynamically install third-party packages for complex birth-death models, multispecies coalescent analyses, and total-evidence dating.
+* [ASTER](https://github.com/chaoszhang/ASTER) - A suite of high-performance, quartet-based tools for large-scale species tree inference under the multispecies coalescent.
 
 ## Tree Estimation
+
+### Likelihood/Bayesian Sequence-to-Tree 
+Standard, site-independent methods that infer phylogenetic trees directly from multiple sequence alignments  using traditional substitution models using a Likelihood or Bayesian approach.
+
+* [RaXML-ng](https://github.com/amkozlov/raxml-ng) -
+* [PhyML](https://github.com/stephaneguindon/phyml) - 
+* [FastTree](https://morgannprice.github.io/fasttree/) -
+* [PhyloBayes](https://pbil.univ-lyon1.fr/software/phylobayes/) -
+
+## Coalescent & Summary-Tree Methods
+
+* [BUCKy](https://pages.stat.wisc.edu/~ane/bucky/index.html) - A Bayesian concordance analysis program that uses gene tree posteriors to estimate the species tree topology.
+* [ASTRAL](https://github.com/chaoszhang/ASTER) - A summary method for inferring species trees from a set of gene trees by efficiently maximizing the total number of shared quartet trees found across the input.
+* [Tree-QMC](https://github.com/molloy-lab/TREE-QMC) -  A quartet-based summary tool that employs a unique weighted quartet max-cut approach to infer species trees from a collection of gene trees. 
+* [SVDQuartets](https://www.asc.ohio-state.edu/kubatko.2/software/SVDquartets/) - A method that uses It uses algebraic statistics (singular value decomposition of site-pattern flattening matrices) to infer species trees directly from sequence alignments.
+
 
 ## Network Estimation
 
@@ -32,6 +50,7 @@ Tools that infer networks from abstract data summaries (*e.g.,* quartet concorda
 
 * [SNaQ](https://juliaphylo.github.io/SNaQ.jl/stable/) - A Julia package that infers level-1 networks from concordance factors using composite likelihood under a network coalescent model.
 * [TreeMix](https://speciationgenomics.github.io/Treemix/) - Uses genome-wide allele frequency data to model population splits and subsequent migration/gene-flow events.
+* [NANUQ+](https://cran.r-project.org/web/packages/MSCquartets/vignettes/NANUQplus.html)-
 
 ### Locus tree Methods
 
@@ -41,6 +60,10 @@ Tools that infer networks from abstract data summaries (*e.g.,* quartet concorda
 ### Sequence/Site Methods
 
 * [PhyNest](https://github.com/sungsik-kong/PhyNEST.jl) - A high-performance Julia package that infers level-1 phylogenetic networks directly from DNA sequence alignments. It uses a composite likelihood framework based on quartet site patterns under the network multispecies coalescent.
+
+## Integrated Pipelines
+
+* [PhyloSuite](http://phylosuite.jushengwu.com/) - A comprehensive, GUI-driven platform that integrates a complete multi-locus phylogenetic workflow.
 
 ## Community
 
