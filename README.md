@@ -54,8 +54,8 @@ Tools that infer networks from abstract data summaries (*e.g.,* quartet concorda
 
 ### Locus tree Methods
 
-[SpeciesNetwork](https://github.com/zhangchicool/speciesnetwork) - A BEAST 2 package that can infer phylogenetic networks from multilocus gene trees *or* sequence data using a birth-hybridization network prior.
-[PhyloFusion](https://github.com/husonlab/splitstree6) - A part of SplitsTree thats a set of input trees and constructs a tree-child network. The output network then displays all input trees.
+* [SpeciesNetwork](https://github.com/zhangchicool/speciesnetwork) - A BEAST 2 package that can infer phylogenetic networks from multilocus gene trees *or* sequence data using a birth-hybridization network prior.
+* [PhyloFusion](https://github.com/husonlab/splitstree6) - A part of SplitsTree thats a set of input trees and constructs a tree-child network. The output network then displays all input trees.
 
 ### Sequence/Site Methods
 
