@@ -1,6 +1,6 @@
 # Awesome Phylogenetics
 
-This is a work-in-progress curated list of phylogenetic estimation and downstream inference tools.
+This is a work-in-progress curated list of open-source phylogenetic estimation and downstream inference tools.
 This resource is intended to help you to find the tools for your specific system, analysis, and research questions.
 
 ##### Table of Contents
