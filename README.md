@@ -1,7 +1,7 @@
 # Awesome Phylogenetics
 
-This is a curated list of awesome phylogenetic estimation and downstream inference tools.
-With these resources we want to help you to find the tools for your specific system, analysis, and research questions.
+This is a work-in-progress curated list of phylogenetic estimation and downstream inference tools.
+This resource is intended to help you to find the tools for your specific system, analysis, and research questions.
 
 ##### Table of Contents
 
