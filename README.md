@@ -64,6 +64,7 @@ Tools that infer networks from abstract data summaries (*e.g.,* quartet concorda
 ## Integrated Pipelines
 
 * [PhyloSuite](http://phylosuite.jushengwu.com/) - A comprehensive, GUI-driven platform that integrates a complete multi-locus phylogenetic workflow.
+* [pipesnake](https://github.com/AusARG/pipesnake) - A Nextflow pipeline for the processing, assembly, and phylogenetic estimation of genomic data from short-read sequences.
 
 ## Community
 
