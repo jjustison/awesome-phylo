@@ -50,7 +50,7 @@ Tools that infer networks from abstract data summaries (*e.g.,* quartet concorda
 
 * [SNaQ](https://juliaphylo.github.io/SNaQ.jl/stable/) - A Julia package that infers level-1 networks from concordance factors using composite likelihood under a network coalescent model.
 * [TreeMix](https://speciationgenomics.github.io/Treemix/) - Uses genome-wide allele frequency data to model population splits and subsequent migration/gene-flow events.
-* [NANUQ+](https://cran.r-project.org/web/packages/MSCquartets/vignettes/NANUQplus.html)-
+* [NANUQ+](https://cran.r-project.org/web/packages/MSCquartets/vignettes/NANUQplus.html) - A quartet-based framework for inferring level-1 phylogenetic networks under the Network Multispecies Coalescent (NMSC). This appraoch first estimates the tree of blobs and systematically resolves the multifurcations into hybrid cycles.
 
 ### Locus tree Methods
 
