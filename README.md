@@ -30,10 +30,10 @@ Many Phylogenetic tools perform a multitude of functions, or contain many differ
 ### Likelihood/Bayesian Sequence-to-Tree 
 Standard, site-independent methods that infer phylogenetic trees directly from multiple sequence alignments  using traditional substitution models using a Likelihood or Bayesian approach.
 
-* [RaXML-ng](https://github.com/amkozlov/raxml-ng) -
-* [PhyML](https://github.com/stephaneguindon/phyml) - 
-* [FastTree](https://morgannprice.github.io/fasttree/) -
-* [PhyloBayes](https://pbil.univ-lyon1.fr/software/phylobayes/) -
+* [RaXML-ng](https://github.com/amkozlov/raxml-ng) - A highly optimized, maximum likelihood engine engineered for massive, genome-scale datasets.
+* [PhyML](https://github.com/stephaneguindon/phyml) - A highly efficient maximum likelihood program that has specialized structural/protein modeling and the ability to calculate fast parametric branch support (aLRT/aBayes).
+* [FastTree](https://morgannprice.github.io/fasttree/) - An fast maximum likelihood approximation tool built to infer massive phylogenies in a fraction of the time and memory of standard ML engines.
+* [PhyloBayes](https://pbil.univ-lyon1.fr/software/phylobayes/) - A Bayesian method that implements the site-heterogeneous CAT mixture models, making it a standard for suppressing long-branch attraction artifacts in ancient alignments and deep-scale phylogenomics.
 
 ## Coalescent & Summary-Tree Methods
 
